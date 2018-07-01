@@ -7,6 +7,7 @@ class App extends Component {
     const lbl = <label htmlFor="bar">bar</label>
     const inpt = <input type="text" onChange={() => {console.log("I am Clic ked")}} />
     return (
+      // React.Fragmentを使うことでdivを消せる
       <React.Fragment>
         {lbl}{inpt}
       </React.Fragment>
